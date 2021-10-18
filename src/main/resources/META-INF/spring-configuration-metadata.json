@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "task.scheduler",
+      "type": "com.shinemo.task.properties.TaskSchedulerProperties",
+      "sourceType": "com.shinemo.task.properties.TaskSchedulerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "task.scheduler.app-service-name",
+      "type": "java.lang.String",
+      "description": "应用名，在ace中，应用名就是 proxy",
+      "sourceType": "com.shinemo.task.properties.TaskSchedulerProperties"
+    },
+    {
+      "name": "task.scheduler.task-deal-core-thread-num",
+      "type": "java.lang.Integer",
+      "description": "任务处理的线程池的核心线程数",
+      "sourceType": "com.shinemo.task.properties.TaskSchedulerProperties"
+    },
+    {
+      "name": "task.scheduler.task-deal-max-queue-size",
+      "type": "java.lang.Integer",
+      "description": "任务处理的线程池的最大队列大小",
+      "sourceType": "com.shinemo.task.properties.TaskSchedulerProperties"
+    },
+    {
+      "name": "task.scheduler.task-deal-max-thread-num",
+      "type": "java.lang.Integer",
+      "description": "任务处理的线程池的最大线程数",
+      "sourceType": "com.shinemo.task.properties.TaskSchedulerProperties"
+    }
+  ],
+  "hints": []
+}

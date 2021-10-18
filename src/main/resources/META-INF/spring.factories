@@ -1,0 +1,7 @@
+# Auto Configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.shinemo.task.starter.TaskSchedulerAutoConfiguration
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.shinemo.task.listener.TaskSchedulerSpringBootAppListener
