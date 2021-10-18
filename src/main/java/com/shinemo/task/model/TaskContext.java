@@ -21,10 +21,24 @@ public class TaskContext {
      */
     private Long taskId;
 
+    /**
+     * 该任务当前执行实例id
+     */
+    private Long taskExecInsId;
+
+    /**
+     * 调度该任务的机器ip
+     */
     private String scheduleIp;
 
+    /**
+     * 当前调度是否是重试调度
+     */
     private boolean retry;
 
+    /**
+     * 该任务的所在服务
+     */
     private String appServiceName;
 
     /**
