@@ -44,6 +44,8 @@ public class TaskInfoConf {
      */
     private Integer status;
 
+    private String extParams;
+
     /**
      * 暂时还没有完善，服务down机，可能导致子任务未被调度
      * 子任务配置
@@ -92,6 +94,11 @@ public class TaskInfoConf {
 
         public Builder status(Integer status) {
             taskInfoConf.status = status;
+            return this;
+        }
+
+        public Builder extParams(String extParams) {
+            taskInfoConf.extParams = extParams;
             return this;
         }
 
