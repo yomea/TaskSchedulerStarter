@@ -51,6 +51,8 @@ public class TaskContext {
      */
     private String methodName;
 
+    private String customerExtParams;
+
     /**
      * 扩展参数
      */
