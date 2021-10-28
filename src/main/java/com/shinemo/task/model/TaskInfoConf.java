@@ -49,7 +49,7 @@ public class TaskInfoConf {
      */
     private Integer status;
 
-    private String extParams;
+    private String customerExtParams;
 
     /**
      * 暂时还没有完善，服务down机，可能导致子任务未被调度
@@ -102,8 +102,8 @@ public class TaskInfoConf {
             return this;
         }
 
-        public Builder extParams(String extParams) {
-            taskInfoConf.extParams = extParams;
+        public Builder customerExtParams(String customerExtParams) {
+            taskInfoConf.customerExtParams = customerExtParams;
             return this;
         }
 

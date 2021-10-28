@@ -61,5 +61,5 @@ public class TaskContext {
     /**
      * 扩展参数
      */
-    private Map<String, Object> extParams;
+    private Map<String, Object> contextParams;
 }
