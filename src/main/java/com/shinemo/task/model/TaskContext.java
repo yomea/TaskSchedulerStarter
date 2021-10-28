@@ -17,9 +17,14 @@ import java.util.Map;
 public class TaskContext {
 
     /**
-     * 任务id
+     * 任务调度中心的id
      */
     private Long taskId;
+
+    /**
+     * 用户提交的id
+     */
+    private String customerId;
 
     /**
      * 该任务当前执行实例id
