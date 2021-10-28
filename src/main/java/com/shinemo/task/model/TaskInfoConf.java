@@ -38,6 +38,8 @@ public class TaskInfoConf {
      */
     private String apiMethodName;
 
+    private String customerId;
+
     /**
      * @see com.shinemo.task.enums.TaskStatusEnum
      * 是否启动，1:启动，-1:禁用
@@ -99,6 +101,11 @@ public class TaskInfoConf {
 
         public Builder extParams(String extParams) {
             taskInfoConf.extParams = extParams;
+            return this;
+        }
+
+        public Builder customerId(String customerId) {
+            taskInfoConf.customerId = customerId;
             return this;
         }
 
