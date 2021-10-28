@@ -34,10 +34,10 @@ public class TimerTaskRequest {
         private TaskScheduleConf.Builder taskScheduleConfBuilder = TaskScheduleConf.builder();
 
 
-        /*public Builder taskId(Long taskId) {
+        public Builder taskId(Long taskId) {
             taskInfoConfBuilder.taskId(taskId);
             return this;
-        }*/
+        }
 
         public Builder taskName(String taskName) {
             taskInfoConfBuilder.taskName(taskName);

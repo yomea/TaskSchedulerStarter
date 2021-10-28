@@ -16,7 +16,7 @@ public class TaskInfoConf {
     /**
      * 任务id，如果是更新，那么此字段不能为空，否则认为是新增
      */
-//    private Long taskId;
+    private Long taskId;
     /**
      * 任务名
      */
@@ -66,10 +66,10 @@ public class TaskInfoConf {
 
         private TaskInfoConf taskInfoConf = new TaskInfoConf();
 
-        /*public Builder taskId(Long taskId) {
+        public Builder taskId(Long taskId) {
             taskInfoConf.taskId = taskId;
             return this;
-        }*/
+        }
 
         public Builder taskName(String taskName) {
             taskInfoConf.taskName = taskName;
