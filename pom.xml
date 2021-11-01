@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.shinemo.task</groupId>
+  <groupId>com.xxx.task</groupId>
   <artifactId>task-scheduler-starter</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -16,27 +16,27 @@
   <properties>
     <spring-boot-version>2.1.9.RELEASE</spring-boot-version>
     <aace.version>4.0.8-SNAPSHOT</aace.version>
-    <shinemo.util.version>1.1.38-SNAPSHOT</shinemo.util.version>
+    <xxx.util.version>1.1.38-SNAPSHOT</xxx.util.version>
   </properties>
 
 
   <dependencies>
 
     <dependency>
-      <groupId>com.shinemo.utils</groupId>
-      <artifactId>shinemo-utils</artifactId>
-      <version>${shinemo.util.version}</version>
+      <groupId>com.xxx.utils</groupId>
+      <artifactId>xxx-utils</artifactId>
+      <version>${xxx.util.version}</version>
       <scope>provided</scope>
     </dependency>
 
     <dependency>
-      <groupId>com.shinemo.aace</groupId>
+      <groupId>com.xxx.aace</groupId>
       <artifactId>aace</artifactId>
       <version>${aace.version}</version>
       <exclusions>
         <exclusion>
-          <artifactId>shinemo-utils</artifactId>
-          <groupId>com.shinemo.utils</groupId>
+          <artifactId>xxx-utils</artifactId>
+          <groupId>com.xxx.utils</groupId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -114,7 +114,7 @@
   <repositories>
     <repository>
       <id>central</id>
-      <url>https://maven.shinemo.com/nexus/content/groups/public/</url>
+      <url>https://maven.xxx.com/nexus/content/groups/public/</url>
       <releases>
       </releases>
       <snapshots>
@@ -124,7 +124,7 @@
   <pluginRepositories>
     <pluginRepository>
       <id>central</id>
-      <url>https://maven.shinemo.com/nexus/content/groups/public/</url>
+      <url>https://maven.xxx.com/nexus/content/groups/public/</url>
       <releases>
       </releases>
       <snapshots>
@@ -135,11 +135,11 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <url>https://maven.shinemo.com/nexus/content/repositories/releases/</url>
+      <url>https://maven.xxx.com/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>https://maven.shinemo.com/nexus/content/repositories/snapshots/</url>
+      <url>https://maven.xxx.com/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
